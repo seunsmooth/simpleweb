@@ -1,6 +1,6 @@
 # Local .terraform directories
 **/.terraform/*
-
+**belgium2
 # .tfstate files
 *.tfstate
 *.tfstate.*
