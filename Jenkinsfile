@@ -5,9 +5,7 @@ pipeline {
             steps {
                 echo 'Building..'
                 sh ' rm -rf app'
-                sh 'git clone https://github.com/seunsmooth/techbleat-website.git app'
-                #sh "cd app && chmod 755 code_deploy.sh && ./code_deploy.sh"
-                
+                sh 'git clone https://github.com/seunsmooth/techbleat-website.git app
             }
         }
         stage('build weather app Infrastructure') {
