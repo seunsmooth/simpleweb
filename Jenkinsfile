@@ -11,7 +11,7 @@ pipeline {
         stage('build weather app Infrastructure') {
             steps {
                 echo 'build Terraform infrastructure on AWS..'
-                sh  'cd app &&  terraform init && terraform apply -auto-approve'
+                sh  'terraform init && terraform apply -auto-approve'
             }
         }
          stage('Test') {
